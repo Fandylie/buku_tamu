@@ -1,0 +1,46 @@
+/* google font inport */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+/* style */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #46C2CB;
+    font-family: Libre Baskerville;
+}
+
+/* navigasi */
+nav{
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #a2f0ff;
+    /* color: #D2EBE9; */
+    box-shadow: 1px 1px 3px #4d678c;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+nav p{
+    padding-top: -10px;
+}
+/* container */
+.container{
+    padding: 40px 10%;
+}
+
+/* footer */
+
+footer{
+    /* padding-top: px; */
+    width: 100vw;
+    text-align: center;
+    font-size: 0.93rem;
+    color: aliceblue;
+    background-color: #193436;
+    position: fixed;
+    bottom: 0px;
+}
+footer p{
+    padding-top: 10%;
+}
